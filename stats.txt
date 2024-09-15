@@ -1,0 +1,24 @@
+# Simulation Statistics
+sim_ticks = 5000000000
+system.cpu.dcache.overall_hits::total = 12345678
+system.cpu.dcache.overall_misses::total = 7890
+system.cpu.dcache.overall_accesses::total = 12353568
+system.cpu.dcache.hit_rate = 0.9987
+system.cpu.dcache.miss_rate = 0.0013
+system.cpu.dcache.avg_mem_access_latency = 28.7
+system.cpu.icache.overall_hits::total = 12340000
+system.cpu.icache.overall_misses::total = 8000
+system.cpu.icache.overall_accesses::total = 12348000
+system.cpu.icache.hit_rate = 0.9985
+system.cpu.icache.miss_rate = 0.0015
+system.cpu.icache.avg_mem_access_latency = 27.3
+system.l2cache.overall_hits::total = 12320000
+system.l2cache.overall_misses::total = 10000
+system.l2cache.overall_accesses::total = 12330000
+system.l2cache.hit_rate = 0.9981
+system.l2cache.miss_rate = 0.0019
+system.l2cache.avg_mem_access_latency = 32.1
+system.total_cycles = 5000000000
+system.total_instructions = 1000000000
+system.instructions_per_cycle = 0.2
+
